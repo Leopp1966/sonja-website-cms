@@ -1,0 +1,88 @@
+# Decap CMS – Konfiguration (Login über DecapBridge)
+# Drei Werte kommen aus deinem DecapBridge-Dashboard und müssen einmal
+# eingetragen werden: repo, identity_url, gateway_url (siehe README, Schritt D/E).
+
+backend:
+  name: git-gateway
+  repo: DEIN-GITHUB-KONTO/sonja-website-cms                       # << anpassen
+  branch: main
+  identity_url: https://auth.decapbridge.com/sites/DEINE-SITE-ID  # << aus DecapBridge
+  gateway_url: https://gateway.decapbridge.com                    # << aus DecapBridge
+  commit_messages:
+    create: 'Erstellt {{collection}} „{{slug}}" – {{author-name}} via DecapBridge'
+    update: 'Aktualisiert {{collection}} „{{slug}}" – {{author-name}} via DecapBridge'
+    delete: 'Gelöscht {{collection}} „{{slug}}" – {{author-name}} via DecapBridge'
+    uploadMedia: 'Bild hochgeladen „{{path}}" – {{author-name}} via DecapBridge'
+    deleteMedia: 'Bild gelöscht „{{path}}" – {{author-name}} via DecapBridge'
+
+# Sprache der Bedienoberfläche
+locale: de
+
+# Bild-Uploads landen hier im Repository:
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: website
+    label: "Website"
+    files:
+      - name: inhalt
+        label: "Inhalte der Seite"
+        file: "content.json"
+        description: "Hier alle Texte, Links und Bilder der Website bearbeiten."
+        fields:
+          - label: "Allgemein"
+            name: "site"
+            widget: "object"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Domain", name: "domain", widget: "string" }
+
+          - label: "Startbereich"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Kleine Zeile oben", name: "kicker", widget: "string" }
+              - { label: "Überschrift – Teil 1", name: "titlePart1", widget: "string" }
+              - { label: "Überschrift – kursives Wort", name: "emphasis", widget: "string", required: false }
+              - { label: "Überschrift – Teil 2", name: "titlePart2", widget: "string", required: false }
+              - { label: "Einleitungstext", name: "lede", widget: "text" }
+
+          - label: "Über / Vita"
+            name: "about"
+            widget: "object"
+            fields:
+              - { label: "Überschrift", name: "heading", widget: "string" }
+              - { label: "Text", name: "text", widget: "text" }
+              - { label: "Porträtfoto", name: "photo", widget: "image", required: false }
+
+          - label: "Werke"
+            name: "works"
+            label_singular: "Werk"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Titel", name: "title", widget: "string" }
+              - { label: "Angaben (z. B. Roman · München 2026)", name: "meta", widget: "string", required: false }
+              - { label: "Aufmacher (kursiv)", name: "pull", widget: "string", required: false }
+              - { label: "Beschreibung", name: "blurb", widget: "text", required: false }
+              - { label: "Kauf-Link (URL)", name: "buyUrl", widget: "string", required: false }
+              - { label: "Button-Beschriftung", name: "buyLabel", widget: "string", required: false, default: "Zum Kaufangebot" }
+              - { label: "Cover", name: "cover", widget: "image", required: false }
+
+          - label: "In Arbeit & geplant"
+            name: "planned"
+            label_singular: "Eintrag"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Titel", name: "title", widget: "string" }
+              - { label: "Status (z. B. in Arbeit / geplant)", name: "status", widget: "string" }
+              - { label: "Notiz", name: "note", widget: "text", required: false }
+
+          - label: "Kontakt"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Überschrift", name: "heading", widget: "string" }
+              - { label: "E-Mail-Adresse", name: "email", widget: "string" }

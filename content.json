@@ -1,0 +1,60 @@
+{
+  "site": {
+    "name": "Sonja Paredes Pernía",
+    "domain": "sonja-paredes-pernia.de"
+  },
+  "hero": {
+    "kicker": "Schriftstellerin — München",
+    "titlePart1": "Psychothriller und",
+    "emphasis": "surreale",
+    "titlePart2": "Romane.",
+    "lede": "Sonja Paredes Pernía, geboren 1969, schreibt Psychothriller und surreale Romane über Menschen in den Zwischenräumen der Realität. Ihre Figuren bewegen sich dort, wo Gewissheiten brüchig werden, wo Innen- und Außenwelt ineinander kippen und das Vertraute seine Selbstverständlichkeit verliert. In ihren Geschichten geht es um Angst und Liebe, Erinnerung, Schmerz, Schuld und um psychische Ausnahmesituationen – und um das, was sich nicht festhalten lässt, selbst dann nicht, wenn es längst vergangen erscheint."
+  },
+  "about": {
+    "heading": "Erzählen heißt, genauer hinsehen.",
+    "text": "Ihre Romane verbinden psychologische Schärfe mit traumartiger Verzerrung. Es geht um Wahrnehmung, um Spaltung, um das, was wir lieber nicht wissen wollen. Vertrieben werden die Bücher über Books on Demand und den Online-Buchhandel — auf dieser Seite finden sich die Wege dorthin.",
+    "photo": "assets/sonja-paredes-pernia.webp"
+  },
+  "works": [
+    {
+      "title": "Der Sog ins Nichts",
+      "meta": "Roman · München 2026",
+      "pull": "Manche Menschen sterben. Andere verschwinden.",
+      "blurb": "In einer Welt aus Angst, Schuld und innerem Zerfall geraten mehrere Menschen in einen unsichtbaren Sog, der mehr verschlingt als nur Körper. Erinnerungen zerbrechen, Identitäten lösen sich auf. Und hinter der Wand wartet etwas, das leerer ist als der Tod.",
+      "buyUrl": "",
+      "buyLabel": "Bei BoD & Buchhandlungen",
+      "cover": "assets/cover-der-sog-ins-nichts.png"
+    }
+  ],
+  "planned": [
+    {
+      "title": "Was niemals ganz verschwand.",
+      "status": "In Arbeit",
+      "note": "Ein Roman über einen Mann, der geprägt ist von Nähe und Rückzug, von Liebe und der Angst vor Verlust. Zwischen Rückfällen, Hoffnung und vorsichtigen Annäherungen entsteht eine Beziehung, die keinen einfachen Verlauf kennt – mit einer neuen Identität."
+    },
+    {
+      "title": "Amadeo",
+      "status": "In Arbeit",
+      "note": "Ein Buch für Kinder von 5 bis 8 Jahren über zwei Hunde und die Abenteuer, die sie zusammen bestehen."
+    },
+    {
+      "title": "Die Auferstehung",
+      "status": "Geplant",
+      "note": "Menschen, die aus einer Wand zurückkehren, in der sie verschwunden sind, finden sich in einer Realität wieder, die ihnen die Aufgabe stellt, sich zu verändern, Schwächen zu erkennen und innere Grenzen zu überwinden – sonst droht die vollkommene Auflösung."
+    },
+    {
+      "title": "Francesko",
+      "status": "Geplant",
+      "note": "Die Geschichte eines Mannes zwischen Liebe und Verlust, Gewalt und Flucht: von einer zerstörten Jugend über Kriminalität, Fremdenlegion und Mafia bis zu einem neuen Leben an der Côte d’Azur und in Afrika. Ein Roman über Schuld, Bindung und die Frage, ob ein Mensch jemals seiner Vergangenheit entkommt."
+    },
+    {
+      "title": "Ich bin viele",
+      "status": "Geplant",
+      "note": "Ein Mann lebt in einem Alltag, in dem verschiedene innere Zustände und Personen sein Leben bestimmen. Erinnerungen reißen ab, Entscheidungen werden von unterschiedlichen inneren Anteilen übernommen. Im Zentrum steht nicht die Heilung, sondern das unmittelbare Erleben eines Menschen, der versucht, in diesem Zustand zwischen Auflösung und Wiederherstellung zu überleben."
+    }
+  ],
+  "contact": {
+    "heading": "Für Anfragen, Lesungen und Presse.",
+    "email": "kontakt@sonja-paredes-pernia.de"
+  }
+}

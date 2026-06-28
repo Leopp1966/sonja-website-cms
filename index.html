@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sonja Paredes Pernía — Schriftstellerin</title>
+
+  <meta name="description" content="Sonja Paredes Pernía, Schriftstellerin aus München. Psychothriller und surreale Romane — u. a. „Der Sog ins Nichts".">
+  <meta name="author" content="Sonja Paredes Pernía">
+  <meta name="theme-color" content="#f6f5f2">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sonja Paredes Pernía — Schriftstellerin">
+  <meta property="og:description" content="Psychothriller und surreale Romane.">
+  <meta property="og:image" content="assets/cover-der-sog-ins-nichts.png">
+  <meta property="og:locale" content="de_DE">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+  <a class="skip" href="#inhalt">Zum Inhalt springen</a>
+
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="#inhalt" data-cms="site.name">Sonja Paredes Pernía</a>
+      <nav aria-label="Seitennavigation">
+        <a href="#werk">Werk</a>
+        <a href="#geplant">Geplant</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inhalt">
+
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap">
+        <p class="kicker" id="hero-kicker">Schriftstellerin — München</p>
+        <h1 id="hero-title">Psychothriller und <em>surreale</em> Romane.</h1>
+        <p class="lede" id="hero-lede"></p>
+      </div>
+    </section>
+
+    <section id="ueber" aria-labelledby="ueber-title">
+      <div class="wrap">
+        <p class="kicker">Über</p>
+        <div class="vita">
+          <div class="vita-photo">
+            <img id="about-photo" src="assets/sonja-paredes-pernia.webp" alt="Porträt von Sonja Paredes Pernía" loading="lazy">
+          </div>
+          <div class="vita-text">
+            <h2 id="ueber-title"></h2>
+            <p class="body" id="about-text"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="werk" aria-labelledby="werk-title">
+      <div class="wrap">
+        <p class="kicker">Werk</p>
+        <h2 id="werk-title" class="visually-hidden">Werk</h2>
+        <div id="works"><!-- wird aus content.json erzeugt --></div>
+      </div>
+    </section>
+
+    <section id="geplant" aria-labelledby="geplant-title">
+      <div class="wrap">
+        <p class="kicker">In Arbeit &amp; geplant</p>
+        <h2 id="geplant-title">Was als Nächstes entsteht</h2>
+        <div class="list" id="planned"><!-- wird aus content.json erzeugt --></div>
+      </div>
+    </section>
+
+    <section id="kontakt" aria-labelledby="kontakt-title">
+      <div class="wrap">
+        <p class="kicker">Kontakt</p>
+        <h2 id="kontakt-title"></h2>
+        <form class="contact-form" id="contact-form" action="https://formspree.io/f/mqevlzpo" method="POST">
+          <div class="field">
+            <label for="cf-name">Name</label>
+            <input id="cf-name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="cf-email">E-Mail</label>
+            <input id="cf-email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div class="field">
+            <label for="cf-message">Nachricht</label>
+            <textarea id="cf-message" name="message" rows="5" required></textarea>
+          </div>
+          <!-- Honeypot: für Menschen unsichtbar; füllt ein Bot es aus, wird die Nachricht verworfen -->
+          <input type="text" name="_gotcha" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <input type="hidden" name="_subject" value="Neue Nachricht über sonja-paredes-pernia.de">
+          <button type="submit">Senden</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span id="footer-name">© 2026 Sonja Paredes Pernía</span>
+      <span id="footer-domain">sonja-paredes-pernia.de</span>
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
