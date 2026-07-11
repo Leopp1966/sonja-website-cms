@@ -17,6 +17,15 @@
   },
   "works": [
     {
+      "title": "Was niemals ganz verschwand",
+      "meta": "Roman · München 2026",
+      "pull": "Was bleibt, wenn etwas niemals wirklich verschwunden ist?",
+      "blurb": "Als nach sieben Jahren eine Frau aus seiner Vergangenheit plötzlich wieder in sein Leben tritt, kehren nicht nur alte Gefühle zurück. Erinnerungen, Ängste und verborgene Teile seiner eigenen Geschichte beginnen, sich miteinander zu vermischen. Zwischen Hoffnung und Verzweiflung sucht Simon nach einem Weg zurück ins Leben. Doch je näher er der Wahrheit über sich selbst kommt, desto mehr verschwimmen die Grenzen zwischen Erinnerung und Wirklichkeit. Ein psychologisch-surrealer Roman über Liebe, Verlust, innere Abgründe und die Frage, was bleibt, wenn etwas niemals wirklich verschwunden ist.",
+      "buyUrl": "",
+      "buyLabel": "Bei BoD & Buchhandlungen",
+      "cover": "assets/cover-was-niemals-ganz-verschwand.png"
+    },
+    {
       "title": "Der Sog ins Nichts",
       "meta": "Roman · München 2026",
       "pull": "Manche Menschen sterben. Andere verschwinden.",
@@ -27,11 +36,6 @@
     }
   ],
   "planned": [
-    {
-      "title": "Was niemals ganz verschwand.",
-      "status": "In Arbeit",
-      "note": "Was niemals ganz verschwand ist ein surrealistischer, psychologischer Roman über Liebe, Angst, Auflösung und die Zersplitterung der Wahrnehmung. Im Mittelpunkt steht Simon, dessen Realität in Bruchstücken existiert. Zwischen Erinnerungslücken, verschobenen Wahrnehmungen und Momenten, die sich nicht festhalten lassen, beginnen Vergangenheit und Gegenwart ineinander zu gleiten. Zwischen Dissoziation, Nähe und Verlust entsteht eine fragile Liebesgeschichte, die sich nicht gegen die Dunkelheit stellt, sondern in ihr weiter existiert."
-    },
     {
       "title": "Amadeo",
       "status": "In Arbeit",
