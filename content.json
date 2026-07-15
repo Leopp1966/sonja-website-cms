@@ -21,8 +21,8 @@
       "meta": "Roman · München 2026",
       "pull": "Was bleibt, wenn etwas niemals wirklich verschwunden ist?",
       "blurb": "Als nach sieben Jahren eine Frau aus seiner Vergangenheit plötzlich wieder in sein Leben tritt, kehren nicht nur alte Gefühle zurück. Erinnerungen, Ängste und verborgene Teile seiner eigenen Geschichte beginnen, sich miteinander zu vermischen. Zwischen Hoffnung und Verzweiflung sucht Simon nach einem Weg zurück ins Leben. Doch je näher er der Wahrheit über sich selbst kommt, desto mehr verschwimmen die Grenzen zwischen Erinnerung und Wirklichkeit. Ein psychologisch-surrealer Roman über Liebe, Verlust, innere Abgründe und die Frage, was bleibt, wenn etwas niemals wirklich verschwunden ist.",
-      "buyUrl": "",
-      "buyLabel": "Bei BoD & Buchhandlungen",
+      "buyUrl": "https://buchshop.bod.de/was-niemals-ganz-verschwand-sonja-paredes-pernia-9783695751365",
+      "buyLabel": "Bei BoD bestellen",
       "cover": "assets/cover-was-niemals-ganz-verschwand.png"
     },
     {
@@ -37,7 +37,12 @@
   ],
   "planned": [
     {
-      "title": "Amadeo",
+      "title": "Gedichte und Kurzgeschichten",
+      "status": "In Arbeit",
+      "note": "Gedichte und Kurzgeschichten von Sonja Paredes Pernía."
+    },
+    {
+      "title": "Amadeo – Kinderbuch",
       "status": "In Arbeit",
       "note": "Ein Buch für Kinder von 5 bis 8 Jahren über zwei Hunde und die Abenteuer, die sie zusammen bestehen."
     },
@@ -60,6 +65,11 @@
       "title": "Jenseits von ihm",
       "status": "Geplant",
       "note": "Ein Roman über eine Frau, die sich in einen verstorbenen Mann verliebt. Zwischen Fotos und Erinnerungen anderer Figuren entsteht eine Beziehung, die die Grenze zwischen Leben und Tod zunehmend auflöst – bis nicht mehr klar ist, was real ist und was nur aus Sehnsucht besteht."
+    },
+    {
+      "title": "Nur ein einzelner Tag",
+      "status": "Geplant",
+      "note": "Ein psychologischer Roman über die unsichtbare Welt der Erinnerungen. Während eine Frau ihren Alltag verbringt – mit ihren Hunden spazieren geht, einkauft und sich eine Mahlzeit zubereitet –, durchlebt sie noch einmal in Gedanken ihr gesamtes Leben. Erinnerungen an Kindheit, schmerzhafte Erfahrungen, Liebe, Verlust, Krankheit und die Suche nach einem Platz im Leben verweben sich mit den unscheinbaren Ereignissen eines einzelnen Tages. Ein Roman darüber, wie viel sich hinter einem scheinbar gewöhnlichen Tag verbergen kann."
     }
   ],
   "contact": {
