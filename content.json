@@ -17,6 +17,15 @@
   },
   "works": [
     {
+      "title": "Gedichte und Kurzgeschichten",
+      "meta": "Gedichte & Kurzgeschichten · München 2026",
+      "pull": "Hoffnung und Verzweiflung liegen so dicht beieinander, dass sie unmöglich zu unterscheiden sind.",
+      "blurb": "In diesem Gedichtband und in diesen Kurzgeschichten finden wir die Stimme einer Schriftstellerin, die sich den Grenzbereichen des menschlichen Bewusstseins nähert – der Trauer, der unerfüllten Liebe, der tiefsten Angst. Sonja Paredes Pernía schreibt von Schmerz als ewigem Begleiter, von Indien als verlorenem Paradies, von Erinnerung als unangelöste Wunde. In Gedicht und Erzählung offenbart sie Welten, in denen Hoffnung und Verzweiflung so dicht beieinander liegen, dass sie unmöglich zu unterscheiden sind.",
+      "buyNote": "Erschienen – in Kürze lieferbar.",
+      "buyLabel": "Bei BoD bestellen",
+      "cover": "assets/cover-gedichte-und-kurzgeschichten.png"
+    },
+    {
       "title": "Was niemals ganz verschwand",
       "meta": "Roman · München 2026",
       "pull": "Was bleibt, wenn etwas niemals wirklich verschwunden ist?",
@@ -36,11 +45,6 @@
     }
   ],
   "planned": [
-    {
-      "title": "Gedichte und Kurzgeschichten",
-      "status": "In Arbeit",
-      "note": "In ihren Gedichten und Kurzgeschichten erzählt Sonja Paredes Pernía von den Tiefen und Hoffnungen des Menschseins. Sie schreibt über Liebe und Verlust, Schmerz und Sehnsucht, Einsamkeit, Freundschaft und die Kraft der Erinnerung. Persönliche Erfahrungen, Begegnungen mit anderen Kulturen und das stille Ringen um Hoffnung und Versöhnung prägen ihre poetischen und erzählerischen Texte. Mit einfühlsamer Sprache lädt sie ihre Leser dazu ein, innezuhalten und sich in den Gefühlen und Fragen des Lebens wiederzufinden."
-    },
     {
       "title": "Amadeo – Kinderbuch",
       "status": "In Arbeit",
