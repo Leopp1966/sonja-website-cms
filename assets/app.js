@@ -100,6 +100,11 @@
         a.rel = "noopener";
         a.textContent = w.buyLabel || "Zum Kaufangebot";
         col.appendChild(a);
+      } else if (w.buyNote) {
+        const n = document.createElement("p");
+        n.className = "meta";
+        n.textContent = w.buyNote;
+        col.appendChild(n);
       }
       book.appendChild(col);
       wrap.appendChild(book);
