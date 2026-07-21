@@ -17,13 +17,13 @@
   },
   "works": [
     {
-      "title": "Gedichte und Kurzgeschichten",
-      "meta": "Gedichte & Kurzgeschichten · München 2026",
-      "pull": "Hoffnung und Verzweiflung liegen so dicht beieinander, dass sie unmöglich zu unterscheiden sind.",
-      "blurb": "In diesem Gedichtband und in diesen Kurzgeschichten finden wir die Stimme einer Schriftstellerin, die sich den Grenzbereichen des menschlichen Bewusstseins nähert – der Trauer, der unerfüllten Liebe, der tiefsten Angst. Sonja Paredes Pernía schreibt von Schmerz als ewigem Begleiter, von Indien als verlorenem Paradies, von Erinnerung als unangelöste Wunde. In Gedicht und Erzählung offenbart sie Welten, in denen Hoffnung und Verzweiflung so dicht beieinander liegen, dass sie unmöglich zu unterscheiden sind.",
-      "buyNote": "Erschienen – in Kürze lieferbar.",
+      "title": "Der Sog ins Nichts",
+      "meta": "Roman · München 2026",
+      "pull": "Manche Menschen sterben. Andere verschwinden.",
+      "blurb": "In einer Welt aus Angst, Schuld und innerem Zerfall geraten mehrere Menschen in einen unsichtbaren Sog, der mehr verschlingt als nur Körper. Erinnerungen zerbrechen, Identitäten lösen sich auf. Und hinter der Wand wartet etwas, das leerer ist als der Tod.",
+      "buyUrl": "https://buchshop.bod.de/der-sog-ins-nichts-sonja-paredes-pernia-9783696373443",
       "buyLabel": "Bei BoD bestellen",
-      "cover": "assets/cover-gedichte-und-kurzgeschichten.png"
+      "cover": "assets/cover-der-sog-ins-nichts.png"
     },
     {
       "title": "Was niemals ganz verschwand",
@@ -35,21 +35,16 @@
       "cover": "assets/cover-was-niemals-ganz-verschwand.png"
     },
     {
-      "title": "Der Sog ins Nichts",
-      "meta": "Roman · München 2026",
-      "pull": "Manche Menschen sterben. Andere verschwinden.",
-      "blurb": "In einer Welt aus Angst, Schuld und innerem Zerfall geraten mehrere Menschen in einen unsichtbaren Sog, der mehr verschlingt als nur Körper. Erinnerungen zerbrechen, Identitäten lösen sich auf. Und hinter der Wand wartet etwas, das leerer ist als der Tod.",
-      "buyUrl": "https://buchshop.bod.de/der-sog-ins-nichts-sonja-paredes-pernia-9783696373443",
+      "title": "Gedichte und Kurzgeschichten",
+      "meta": "Gedichte & Kurzgeschichten · München 2026",
+      "pull": "Hoffnung und Verzweiflung liegen so dicht beieinander, dass sie unmöglich zu unterscheiden sind.",
+      "blurb": "In diesem Gedichtband und in diesen Kurzgeschichten finden wir die Stimme einer Schriftstellerin, die sich den Grenzbereichen des menschlichen Bewusstseins nähert – der Trauer, der unerfüllten Liebe, der tiefsten Angst. Sonja Paredes Pernía schreibt von Schmerz als ewigem Begleiter, von Indien als verlorenem Paradies, von Erinnerung als unangelöste Wunde. In Gedicht und Erzählung offenbart sie Welten, in denen Hoffnung und Verzweiflung so dicht beieinander liegen, dass sie unmöglich zu unterscheiden sind.",
+      "buyNote": "Erschienen – in Kürze lieferbar.",
       "buyLabel": "Bei BoD bestellen",
-      "cover": "assets/cover-der-sog-ins-nichts.png"
+      "cover": "assets/cover-gedichte-und-kurzgeschichten.png"
     }
   ],
   "planned": [
-    {
-      "title": "Amadeo – Kinderbuch",
-      "status": "In Arbeit",
-      "note": "Ein Buch für Kinder von 5 bis 8 Jahren über zwei Hunde und die Abenteuer, die sie zusammen bestehen."
-    },
     {
       "title": "Francesco",
       "status": "In Arbeit",
@@ -74,6 +69,11 @@
       "title": "Nur ein einzelner Tag",
       "status": "Geplant",
       "note": "Ein psychologischer Roman über die unsichtbare Welt der Erinnerungen. Während eine Frau ihren Alltag verbringt – mit ihren Hunden spazieren geht, einkauft und sich eine Mahlzeit zubereitet –, durchlebt sie noch einmal in Gedanken ihr gesamtes Leben. Erinnerungen an Kindheit, schmerzhafte Erfahrungen, Liebe, Verlust, Krankheit und die Suche nach einem Platz im Leben verweben sich mit den unscheinbaren Ereignissen eines einzelnen Tages. Ein Roman darüber, wie viel sich hinter einem scheinbar gewöhnlichen Tag verbergen kann."
+    },
+    {
+      "title": "Amadeo – Kinderbuch",
+      "status": "In Arbeit",
+      "note": "Ein Buch für Kinder von 5 bis 8 Jahren über zwei Hunde und die Abenteuer, die sie zusammen bestehen."
     }
   ],
   "contact": {
