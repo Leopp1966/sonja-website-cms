@@ -33,14 +33,18 @@
       "buyUrl": "https://buchshop.bod.de/was-niemals-ganz-verschwand-sonja-paredes-pernia-9783695751365",
       "buyLabel": "Bei BoD bestellen",
       "cover": "assets/cover-was-niemals-ganz-verschwand.png"
+    },
+    {
+      "title": "Francesco",
+      "meta": "Roman · München 2026",
+      "pull": "Kann ein Mensch seiner Vergangenheit entkommen?",
+      "blurb": "Die Geschichte eines Mannes zwischen Liebe und Verlust, Gewalt und Flucht: von einer zerstörten Jugend über Kriminalität, Fremdenlegion und Mafia bis zu einem neuen Leben an der Côte d’Azur und in Afrika. Ein Roman über Schuld, Bindung und die Frage, ob ein Mensch jemals seiner Vergangenheit entkommt.",
+      "buyUrl": "https://www.amazon.de/dp/3696740322",
+      "buyLabel": "Bei Amazon bestellen",
+      "cover": "assets/cover-francesco.png"
     }
   ],
   "planned": [
-    {
-      "title": "Francesco",
-      "status": "In Arbeit",
-      "note": "Die Geschichte eines Mannes zwischen Liebe und Verlust, Gewalt und Flucht: von einer zerstörten Jugend über Kriminalität, Fremdenlegion und Mafia bis zu einem neuen Leben an der Côte d’Azur und in Afrika. Ein Roman über Schuld, Bindung und die Frage, ob ein Mensch jemals seiner Vergangenheit entkommt."
-    },
     {
       "title": "Die Auferstehung",
       "status": "Geplant",
